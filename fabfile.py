@@ -32,7 +32,7 @@ def run_provision_script():
 user_home = os.path.expanduser('~')
 ssh_loc = os.path.join(user_home, '.ssh/id_rsa.pub')
 
-if os.path.isfile('~/.ssh/id_rsa.pub') == True:
+if os.path.isfile(ssh_loc) == True:
     execute(create_user)
     print("COPYING SSH KEY TO USER " + str(['####'] * 3))
     execute(copy_ssh_key)
