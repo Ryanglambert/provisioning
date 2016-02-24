@@ -8,8 +8,8 @@ Assumptions made by this script:
 How to run it
 
 - git clone this repo
-- within the repo type `fab -H root@45.79.92.194 -I -k`
-- ssh <youruserid>@ip_of_your_host
+- within the repo type `fab -H root@<serverip> -I -k`
+- ssh <youruserid>@serverip
 
 
 :)
