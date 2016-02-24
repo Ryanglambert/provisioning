@@ -7,8 +7,9 @@ Assumptions made by this script:
 
 How to run it
 
-git clone this repo
-within the repo type `fab -H root@45.79.92.194 -I -k`
+- git clone this repo
+- within the repo type `fab -H root@45.79.92.194 -I -k`
+- ssh <youruserid>@ip_of_your_host
 
 
 :)
