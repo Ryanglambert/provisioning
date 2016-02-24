@@ -12,7 +12,9 @@ How to run it
 - `git clone https://github.com/Ryanglambert/provisioning.git`
 - `cd provisioning`
 - `fab -H root@<serverip> -I -k`
+    - Give it the username you will use on the server
     - Type in the root password for the server
+    - at some point it will ask you to type yes (working on removing this)
 - `ssh <youruserid>@serverip`
 
 - YAHTZEE!
