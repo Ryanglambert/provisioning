@@ -11,6 +11,7 @@
 
 # How to run it
 
+- `sudo pip install fabric`
 - `git clone https://github.com/Ryanglambert/provisioning.git`
 - `cd provisioning`
 - `fab -H root@<serverip> -I -k`
