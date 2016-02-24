@@ -8,6 +8,7 @@
 - you have a `id_rsa.pub` in your .ssh folder
 - you have the ip of the server
 - the root password of the server
+- the flavor of linux is Ubuntu 14.04 (very common)
 
 # How to run it
 
