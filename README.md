@@ -15,11 +15,12 @@
 - `sudo pip install fabric`
 - `git clone https://github.com/Ryanglambert/provisioning.git`
 - `cd provisioning`
-- `fab -H root@<serverip> -I -k`
+- `fab -i <your_temporary_key>.pem -H ubuntu@<serverip> -I -k`
     - Give it the username you will use on the server
     - Type in the root password for the server
     - at some point it will ask you to type yes (working on removing this)
 - `ssh <youruserid>@<serverip>`
+- su password is `metis` feel free to change
 
 # YAHTZEE!
 
