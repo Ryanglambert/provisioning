@@ -23,8 +23,13 @@ def copy_ssh_key():
 def run_provision_script():
     # with settings(prompts={'Do you want to continue [Y/n]? ': 'Y'}):
     sudo('echo "y\n" | apt-get update')
+    sudo('apt-get install git')
     sudo('apt-get install python-pip python-dev build-essential')
     sudo('pip install --upgrade pip')
+    sudo('pip install virtualenv')
+    sudo('pip install virtualenvwrapper')
+    sudo('pip install ipython')
+
 
 # def set_user_perms():
 #     sudo('echo
